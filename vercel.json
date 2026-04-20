@@ -1,10 +1,5 @@
 {
-  "functions": {
-    "api/chat.py": {
-      "runtime": "@vercel/python@4.0.0"
-    }
-  },
   "routes": [
-    { "src": "/api/chat", "dest": "/api/chat.py" }
+    { "src": "/api/chat", "dest": "/api/chat.js" }
   ]
 }
